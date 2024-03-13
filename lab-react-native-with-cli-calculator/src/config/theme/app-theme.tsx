@@ -33,6 +33,26 @@ export const styles = StyleSheet.create({
         flex: 1,
         padding: 20,
         justifyContent: 'flex-end',
+    },
+    button: {
+        height: 80,
+        width: 80,
+        backgroundColor: 'red',
+        borderRadius: 100,
+        justifyContent: 'center',
+    },
+    buttonText: {
+        textAlign: 'center',
+        padding: 10,
+        fontSize: 30, 
+        color: 'white',
+        fontWeight: '300',
+    },
+    row: {
+        flexDirection: 'row',
+        justifyContent: "center",
+        marginBottom: 18,
+        paddingHorizontal: 10,
     }
 
 });
