@@ -4,14 +4,12 @@ export const colors = {
     darkGray: '#2D2D2D',
     lightGray: '#9B9B9B',
     orange: '#FF9427',
-
     textPrimary: 'white',
     textSecondary: '#666666',
     background: '#000000',
 }
 
 export const styles = StyleSheet.create({
-
     background: {
         flex: 1,
         backgroundColor: colors.background,
@@ -31,7 +29,7 @@ export const styles = StyleSheet.create({
     },
     calculatorContainer: {
         flex: 1,
-        padding: 20,
+        padding: 10,
         justifyContent: 'flex-end',
     },
     button: {
@@ -40,11 +38,12 @@ export const styles = StyleSheet.create({
         backgroundColor: 'red',
         borderRadius: 100,
         justifyContent: 'center',
+        marginHorizontal: 10,
     },
     buttonText: {
         textAlign: 'center',
         padding: 10,
-        fontSize: 30, 
+        fontSize: 30,
         color: 'white',
         fontWeight: '300',
     },
