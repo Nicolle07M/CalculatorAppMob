@@ -52,6 +52,7 @@ export const styles = StyleSheet.create({
         justifyContent: "center",
         marginBottom: 18,
         paddingHorizontal: 10,
-    }
+    },
+    
 
 });
